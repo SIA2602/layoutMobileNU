@@ -4,5 +4,5 @@ function ocultDisplay(){
     document.getElementById("menu").style.display = "block";
 }
 
-window.setTimeout(ocultDisplay, 1000);
+window.setTimeout(ocultDisplay, 1500);
 
