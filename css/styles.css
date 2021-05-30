@@ -4,12 +4,27 @@
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Open Sans';
-    font-style: normal;    
+    font-style: normal;   
+    margin-left: 50px; 
 }
 
 h1{
     font-size: 70px;
     color: white;
+}
+
+h2{
+    font-size: 45px;
+    color: rgb(125, 125, 125);
+    text-align: left;
+    padding-top: 50px;
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(125, 125, 125);
+    text-align: left;
+    padding-top: 20px;
 }
 
 body{
@@ -47,10 +62,47 @@ body{
     margin-left: 30px;
 }
 
-.quadroCARD{
+.sliderCARD{        
+    height: 60vh;           
+    background-color: var(--colorNU);     
+    padding-bottom: 3vh;
+    margin-top: 13vh;  
+}
+
+.slidesCARD {
+    display: grid;    
+    overflow-y: auto;        
+}
+
+.slideCARD {    
+    flex-shrink: 0;
     width: 90%;
-    height: 30vh;
+    height: auto; 
     background-color: aliceblue;
-    margin-top: 50px;    
-    border-radius: 15px;
+    margin-bottom: 2.5vh;
+    border-radius: 10px;
+    border: none;   
+}
+
+.slider{
+    width: 100%;           
+    background-color: var(--colorNU);  
+    padding-left: 3.5vw;
+    padding-bottom: 3vh;
+    padding-top: 3vh;  
+}
+
+.slides {
+    display: flex;
+    overflow-x: auto;        
+}
+
+.slide {    
+    flex-shrink: 0;
+    width: 21vw;
+    height: 21vw;    
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-right: 2vw;
+    border-radius: 5px;
+    border: none;   
 }

@@ -5,4 +5,3 @@ function ocultDisplay(){
 }
 
 window.setTimeout(ocultDisplay, 1500);
-
