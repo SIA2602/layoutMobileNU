@@ -63,7 +63,7 @@ body{
 }
 
 .sliderCARD{        
-    height: 60vh;           
+    height: 105vh;           
     background-color: var(--colorNU);     
     padding-bottom: 3vh;
     margin-top: 13vh;  
@@ -105,4 +105,14 @@ body{
     margin-right: 2vw;
     border-radius: 5px;
     border: none;   
+}
+
+.textoOculto{
+    width: 90%;
+    height: 130px;
+    background-color: rgb(240, 240, 240);
+    margin-left: 50px; 
+    display: none;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }

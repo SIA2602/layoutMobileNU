@@ -31,46 +31,49 @@
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-nav marginLateral" style="padding-top: 4vh; padding-bottom: 3vh;">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><h1><b>Olá, Danilo</b></h1></a>                           
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">                            
-                            <button type="button" id="eyes" class="buttonSuperior" style="height: 5.5vh; width: 5.5vh;"><img src="assets/img/eyes.png" style="width: 60%;"></button>
-                            <button type="button" id="eyes" class="buttonSuperior" style="height: 5.5vh; width: 5.5vh;"><img src="assets/img/config.png" style="width: 60%;"></button>                                                                
-                        </div>
+                    <div class="justify-content-end">                                                   
+                        <button type="button" onclick="oculta()" id="eyes" class="buttonSuperior" style="height: 5.5vh; width: 5.5vh;"><img id="imageEyes" src="assets/img/eyes.png" style="width: 60%;"></button>
+                        <button type="button" id="eyes" class="buttonSuperior" style="height: 5.5vh; width: 5.5vh;"><img src="assets/img/config.png" style="width: 60%;"></button>                                                              
                     </div>
                 </div>
             </nav>           
             
             <div class="sliderCARD">
                 <div class="slidesCARD">
-
-                    <button class="slideCARD mx-auto">
+                    <div class="slideCARD mx-auto">
                         <h2>Cartão de Crédito</h2>
                         <h3>Fatura atual</h3>
-                        <h1 style="color: rgb(30, 156, 217); text-align: left !important; margin-top: 30px;"><b>R$ 0,00</b></h1>                        
-                        <h3 style="color: black; margin-bottom: 50px;"><b>Limite dispinível</b></h3>
-                    </button>
+                        <h3 class="textoOculto" id="textoOculto01"></h3>                        
+                        <h1 id="saldoFatura01" style="color: rgb(30, 156, 217); text-align: left !important; margin-top: 30px;"><b>R$ 0,00</b></h1>                        
+                        <h3 id="saldoFatura02" style="color: black; margin-bottom: 50px;"><b>Limite disponível</b> <b style="color: rgb(51, 119, 80);">R$ 0,00</b></h3>
+                    </div>
                     
-                    <button class="slideCARD mx-auto">
-                        <h2>Cartão de Crédito</h2>
-                        <h3>Fatura atual</h3>
-                        <h1 style="color: rgb(30, 156, 217); text-align: left !important; margin-top: 30px;"><b>R$ 0,00</b></h1>                        
-                        <h3 style="color: black; margin-bottom: 50px;"><b>Limite dispinível</b></h3>
-                    </button>
+                    <div class="slideCARD mx-auto">
+                        <h2>Conta</h2>
+                        <h3>Saldo disponível</h3>
+                        <h3 class="textoOculto" id="textoOculto02"></h3>                        
+                        <h1 id="saldo" style="color: black; text-align: left !important; margin-top: 30px; margin-bottom: 50px;"><b>R$ 0,00</b></h1>                        
+                    </div>
 
-                    <button class="slideCARD mx-auto">
-                        <h2>Cartão de Crédito</h2>
-                        <h3>Fatura atual</h3>
-                        <h1 style="color: rgb(30, 156, 217); text-align: left !important; margin-top: 30px;"><b>R$ 0,00</b></h1>                        
-                        <h3 style="color: black; margin-bottom: 50px;"><b>Limite dispinível</b></h3>
-                    </button>
+                    <div class="slideCARD mx-auto">
+                        <h2 style="margin-bottom: 50px;"><b>Meus cartões</b></h2>                        
+                    </div>
 
-                    <button class="slideCARD mx-auto">
-                        <h2>Cartão de Crédito</h2>
-                        <h3>Fatura atual</h3>
-                        <h1 style="color: rgb(30, 156, 217); text-align: left !important; margin-top: 30px;"><b>R$ 0,00</b></h1>                        
-                        <h3 style="color: black; margin-bottom: 50px;"><b>Limite dispinível</b></h3>
-                    </button>
+                    <div class="slideCARD mx-auto">
+                        <h1 style="font-size: 60px !important; color: rgb(135, 71, 185); text-align: left !important; margin-top: 30px;"><b>Seguro de vida</b></h1>
+                        <h2 style="color: black; margin-bottom: 50px;">Conheça Nubank Vida: um seguro <br>simples e que cabe no seu bolso.</h2>                        
+                        <button type="button" style="height: 100px; width: 310px; margin-left: 50px; margin-bottom: 50px; background-color: transparent; border: 3px solid rgb(135, 71, 185); border-radius: 15px;">
+                            <h3 style="color: rgb(135, 71, 185)!important; padding-top: 0px !important;"><b style="text-align:center!important;">CONHECER</b></h3>
+                        </button>
+                    </div>
 
+                    <div class="slideCARD mx-auto">
+                        <h1 style="font-size: 60px !important; color: rgb(135, 71, 185); text-align: left !important; margin-top: 30px;"><b>Rewards</b></h1>
+                        <h2 style="color: black; margin-bottom: 50px;">Pague compras com pontos que nunca expiram.</h2>                        
+                        <button type="button" style="height: 100px; width: 310px; margin-left: 50px; margin-bottom: 50px; background-color: transparent; border: 3px solid rgb(135, 71, 185); border-radius: 15px;">
+                            <h3 style="color: rgb(135, 71, 185)!important; padding-top: 0px !important;"><b style="text-align:center!important;">CONHECER</b></h3>
+                        </button>
+                    </div>
                 </div>
             </div>
 
