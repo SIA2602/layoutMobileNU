@@ -4,7 +4,7 @@ function ocultDisplay(){
     document.getElementById("menu").style.display = "block";
 }
 
-window.setTimeout(ocultDisplay, 1500);
+window.setTimeout(ocultDisplay, 2500);
 
 var cont = true;
 function oculta(){    

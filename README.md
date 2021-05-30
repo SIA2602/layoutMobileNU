@@ -1,2 +1,7 @@
 # layoutMobileNU
-Um estudo para por em prática o que tenho aprendido ate agora em desenvolvimento web voltado ao Front-end  aplicado ao novo design da marca Nubank.
+>Afim de por em prática o que tenho aprendido até o momento em desenvolvimento web utilizando o framework <b>Bootstrap</b>, resolvi realizar um estudo do design da aplicação mobile da <b>Nubank</b>.
+
+------------
+
+### Layout Final
+
