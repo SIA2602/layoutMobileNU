@@ -27,6 +27,11 @@ h3{
     padding-top: 20px;
 }
 
+h4{
+    font-size: 35px;
+    text-align: left;    
+}
+
 body{
     background-color: var(--colorNU);
 }
@@ -100,11 +105,11 @@ body{
 .slide {    
     flex-shrink: 0;
     width: 21vw;
-    height: 21vw;    
+    height: 21vw;       
     background-color: rgba(255, 255, 255, 0.08);
     margin-right: 2vw;
     border-radius: 5px;
-    border: none;   
+    border: none;       
 }
 
 .textoOculto{
@@ -137,4 +142,22 @@ body{
     background-position: 50% 50%;    
     background-color: rgb(130,10,209, 0.1);   
     border-radius: 100%;      
+}
+
+.iconCard{
+    height: 90px;
+    width: 90px;
+    background-image: url(../assets/img/card.png);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: 50% 50%;         
+}
+
+.iconCoin{
+    height: 95px;
+    width: 95px;
+    background-image: url(../assets/img/coin.png);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: 50% 50%;         
 }
